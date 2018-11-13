@@ -5,7 +5,7 @@ Run:
 ```git clone https://github.com/lukasseiwald/MMP3_Testing_Phaser.git```
 
 Go To Folder:
-```cd MMP3_TestingPhaser```
+```cd MMP3_Testing_Phaser```
 
 Run:
 
