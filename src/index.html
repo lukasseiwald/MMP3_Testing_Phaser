@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Phaser - ES6 - Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="/manifest.json">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        } .instructions {
+            height: 5em;
+            width: 40em;
+            float: right;
+            margin: 1em 1em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .instructions p{
+            width: fit-content;
+            padding: 0.4em 1em;
+            border: 1px solid #aaa;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .highlight {
+            color: rgb(58, 63, 99);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="content"></div>
+    <div class="instructions">
+        <p><span class="highlight">Pfeiltasten </span>=> bewegen</p>
+        <p><span class="highlight">k </span>=> bauen</p>
+        <p><span class="highlight">m </span>=> attackieren</p>(Attacke + Berührung von einigen dunklen Blöcken = Block wird zerstört)
+    </div>
+    <!-- uncomment the line bellow for cordova feature -->
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
+</body>
+
+</html>
